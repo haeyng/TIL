@@ -4,13 +4,14 @@ package days01;
 /**
  *@author 송해영
  *@date 2023. 7. 14.-오후 8:38:57
- *@subject 자바의 변수와 상수
+ *@subject  자바의 변수와 상수
  *@content 1. 변수,상수 개념 설명
  *				  2. 변수 선언형식
  *				  3. 예제
  */
 
 public class Ex03 {
+	
 	public static void main(String[] args) {
 
 		/*1. 변수(Variable)
@@ -27,25 +28,26 @@ public class Ex03 {
 		 *  	자료형==데이터 타입(data type)
 		 *  
 		 *  4.실습
-		 *  ; 세미콜론 명령라인 종결 연산자
-		 *  자바에서 문자열==문자의 나열 ->"문자열"
-		 *  자바에서 한 문자                     '이'
-		 *  송해영 변수로 인식을 했는데 변수를 지정하지 않아 오류가 생김
-		 *  송해영 cannot be resolved to a variable(변수를 지정하지 않아 생기는 오류메세지)
-		     System.out.println(송해영);
+		 *  ; 세미콜론은 명령라인 종결 연산자이다.
+		 *  자바에서 문자열 == 문자의 나열 -> "문자열"
+		 *  자바에서 한 문자                          '이'
+		 *  홍길동 변수로 인식을 했는데 변수를 지정하지 않아 오류가 생김
+		 *  홍길동 cannot be resolved to a variable(변수를 지정하지 않아 생기는 오류메세지)
+		     System.out.println(홍길동);
 		 */
 		
 		/*이름을 선언하는 문자열 변수 선언
 		 * 
 		 *  p 26
 		 *  변수 이름을 명명하는 규칙
-		 *  ["송해영"]
+		 *  ["홍길동"]
 		 *  name
 		 */
-		String name = "송해영"; // 여기서 =는 대입(할당)연산자
+		
+		String name = "홍길동"; // 여기서 = 는 수학적 의미의 '같다'가 아닌 대입(할당)연산자이다.
 		System.out.println(name);
 		
-		//String name="이창익";
+		//String name="김길동";
 		//을 입력해버리면 Duplicate local variable name 에러가 뜬다
 		//이 에러의 의미는 로컬(지역)변수가 중복 선언되었다는 뜻
 		
