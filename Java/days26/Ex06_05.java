@@ -39,13 +39,6 @@ public class Ex06_05 {
 			dir.delete();
 		}//if
 		
-		
-		
-		
-		
-		
-		
-		
 	}//main
 
 }//class

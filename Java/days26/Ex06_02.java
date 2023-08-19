@@ -58,13 +58,6 @@ public class Ex06_02 {
 						,수정날짜);
 		} // for
 		
-		
-		
-		
-		
-		
-		
-		
 	}//main
 
 }//class

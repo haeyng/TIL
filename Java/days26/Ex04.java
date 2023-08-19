@@ -32,7 +32,6 @@ public class Ex04 {
 		
 		System.err.println("F"); //에러메세지 출력할때 사용, 독립적으로 스레드가 사용된다.
 		
-		
 	}//main
 
 }//class

@@ -68,10 +68,6 @@ public class Ex03 {
 			System.out.println(code);
 		}//while
 		
-		
-		
-		
-		
 	}//main
 
 }//class

@@ -22,9 +22,10 @@ public class Ex01 {
 		boolean gender = true;
 		
 		//한 학생의 정보를 student[.txt] 파일에 저장하려고 할 때
-		//FileWriter			문자 스트림
+		//FileWriter		   문자 파일 스트림
 		//BufferedWriter 문자 보조 스트림
 		String fileName = ".\\src\\days26\\student.txt";
+		
 		try ( FileWriter out = new FileWriter(fileName, true);
 				BufferedWriter bw = new BufferedWriter(out)){
 			

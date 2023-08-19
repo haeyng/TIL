@@ -79,17 +79,6 @@ public class Ex06_08 {
 			e.printStackTrace();
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}//main
 
 }//class

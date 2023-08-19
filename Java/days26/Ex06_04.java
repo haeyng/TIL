@@ -49,14 +49,7 @@ public class Ex06_04 {
 			}//catch
 			
 		} // for
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}//main
 
 }//class
