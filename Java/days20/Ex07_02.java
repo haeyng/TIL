@@ -17,9 +17,6 @@ public class Ex07_02 {
 		int money;
 		
 		
-		
-		
-		
 		//[2] DecimalFormat 사용
 		String pattern = "#,###";
 		DecimalFormat df = new DecimalFormat(pattern);
@@ -31,11 +28,6 @@ public class Ex07_02 {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		
-		
-		
-		
-		
 		
 		//int money = 1234567;
 		//System.out.println(money);

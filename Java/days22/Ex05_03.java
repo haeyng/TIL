@@ -72,14 +72,13 @@ class Person3 implements Comparable{
 		return "[name=" + name + ", age=" + age + "]";
 	}
 
+	// 이름을 기준으로 Person 객체는 기본 정렬
 	@Override
 	public int compareTo(Object o) { //비교 기능이 구현한 클래스로 만듦
 		Person3 p = (Person3)o;
 		
 		return this.getName().compareTo(p.getName());
 	}
-	
 
-	
 	
 }//class

@@ -11,6 +11,7 @@ public class Ex09_03 {
 		dispLotto(lotto);
 		
 }//main	
+	
 	public static void fillLotto(int[] lotto) {
 		int index = 0;
 		int lottoNumber= (int)(Math.random()*45)+1;
@@ -36,7 +37,7 @@ public class Ex09_03 {
 		
 	}
 	
-// 시험 외우기 함수만들어서 코딩
+	// 시험 외우기 함수만들어서 코딩
 	private static boolean isDuplicateLotto(int[] lotto, int lottoNumber, int index) {
 		for (int i = 0; i < index; i++) {
 			if(lotto[i]==lottoNumber) {

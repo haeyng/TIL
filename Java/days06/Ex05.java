@@ -38,11 +38,11 @@ public class Ex05 {
 			} //for		
 
 			     /*-----------------------------------------------------------------------------------------
-//				if (flag) { //flag 자체가 참,거짓을 가지는 boolean형이라서(flag==true) 대신 flag만 입력해도 됨
-//					System.out.println("입력 잘못했습니다");
-//				} else {
-//					n = Integer.parseInt(inputData);
-//					System.out.println(n);
+				if (flag) { //flag 자체가 참,거짓을 가지는 boolean형이라서(flag==true) 대신 flag만 입력해도 됨
+					System.out.println("입력 잘못했습니다");
+				} else {
+					n = Integer.parseInt(inputData);
+					System.out.println(n);
 			      ------------------------------------------------*/
 			
 				//위에 있는것을 ! not을 붙여서 위 아래 바꿔줌  같은 의미임

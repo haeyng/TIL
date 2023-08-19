@@ -9,6 +9,7 @@ package days11;
 public class Ex07_02 {
 
 	public static void main(String[] args) {
+		
 		/*
 		int [][] m = new int [2][4];
 		

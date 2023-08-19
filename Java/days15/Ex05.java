@@ -5,6 +5,7 @@ import java.io.IOException;
 public class Ex05 {
 
 	public static void main(String[] args) {
+		
 		//단일 상속
 		//다중 상속 : 자바는 지원 안함 대신 인터페이스 구현
 		

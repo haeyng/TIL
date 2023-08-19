@@ -74,12 +74,6 @@ public class Ex14 {
 		System.out.println(class5Clone);
 		
 		
-		
-		
-		
-		
-		
-		
 	}//main
 
 }//class
@@ -95,13 +89,5 @@ class Class5Comparator implements Comparator{
 		//return s2.compareTo(s1);//내림차순
 	}
 	
-	
-	
-	
-	
-	
 }
-
-
-
 

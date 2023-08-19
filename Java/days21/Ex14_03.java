@@ -61,12 +61,7 @@ public class Ex14_03 {
 		
 		System.out.println(class5Clone);
 		
-		
-		
-		
-		
-		
-		
+
 		
 	}//main
 

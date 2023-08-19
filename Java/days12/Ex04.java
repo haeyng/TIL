@@ -62,12 +62,6 @@ public class Ex04 {
 	}
 
 
-
-
-
-
-
-
 	private static void fillM04(int[][] m) {
 //				0 [01][02][03][04][05]
 //				1 [10][09][08][07][06] 

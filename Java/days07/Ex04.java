@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Ex04 {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
+		
 //		//Character
 //		//한 문자를 대문자로 변환하는 매서드 : toUpperCase
 //		System.out.println(Character.toUpperCase('y'));

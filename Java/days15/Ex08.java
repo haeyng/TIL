@@ -3,6 +3,7 @@ package days15;
 public class Ex08 {
 
 	public static void main(String[] args) {
+		
 		/*[1번]
 		Employee emp1 = new Employee("이준희", "서울 강남구", "010-1234-1234", "2022.12.12");
 		
@@ -21,10 +22,11 @@ public class Ex08 {
 		/*
 		//[2번]
 		Regular emp2 = new Regular("주강민","서울 양천구","010-1234-1234","2021.03.21",4000000);
-		//문제점 : 기본급 출력안됨
+		//문제점 ----- 기본급 출력안됨
 		emp2.dispEmpInfo();
 		System.out.println(emp2); //@toString()
 		*/
+		
 		
 		/*
 		//[3번]
@@ -41,19 +43,19 @@ public class Ex08 {
 		//emp2.getPay(); //Regular에 함수를 만들어 줬는데도 호출,사용 못함
 		*/
 		
+		
 		//Type mismatch: cannot convert from Employee to Regular
 		//부모클래스 객체를 자식 클래스 객체에 참조 시키는것 : 다운 캐스팅(downcasting)은 캐스트 연산자로 반드시 강제로 형변환 해줘야한다.
 		//(조건) 업캐스팅한 객체만 다시 다운캐스팅 할 수 있다.
-		//Regular emp =(Regular) emp2; 
-		
+		//Regular emp =(Regular) emp2; 		
 		
 		
 		/*
-		 
 		//Type mismatch: cannot convert from Employee to Regular : 캐스트 연산자가 클래스들간의 형변환할때도 사용됨 (컴파일오류) 
 		// java.lang.ClassCastException : 실행할때 발생하는 오류(런타임오류)
 		Regular emp = (Regular) new Employee("이준희", "서울 강남구", "010-1234-1234", "2022.12.12");
 		*/
+		
 		
 		/*
 		//[4번] SalesMan , Regular, Employee(오류,getpay함수 없음) 에 참조 시켜봄
@@ -61,6 +63,7 @@ public class Ex08 {
 		emp3.dispEmpInfo();
 		System.out.println(emp3.getPay());   x
 		*/
+		
 		
 		/*
 		//[5번]

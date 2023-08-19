@@ -39,9 +39,6 @@ public class Ex06 {
 		System.out.println(t);
 		
 		
-		
-		
-		
 	}//main
 
 }//class

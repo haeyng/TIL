@@ -32,10 +32,7 @@ public class Ex10 {
 		//INSERT INTO board (no, title, writer, content, regdate)
 		// VALUES({0},'{1}','{2}'.'{3}',{4})"
 		
-		
-		
-		
-		
+	
 		
 	}//main
 

@@ -2,12 +2,13 @@ package days06;
 /**
  *@author 송해영
  *@date 2023. 7. 23.-오후 9:31:24
- *@subject
+ *@subject for문 별찍기 기본
  *@content
  */
 public class Ex08 {
 
 	public static void main(String[] args) {
+		
 		// ****
 		// ****
 		// ****

@@ -8,8 +8,8 @@ public class Ex09 {
 	public static void main(String[] args) {
 
 		//static 붙이면 객체를 생성할 필요 없음
-//		Ex09 obj = new Ex09();
-//		obj.sum(1, 2);
+		//Ex09 obj = new Ex09();
+		//obj.sum(1, 2);
 		
 		//클래스명.static 메서드명()
 		//Ex09.sum(1,2); //같은 클래스 
@@ -20,8 +20,5 @@ public class Ex09 {
 	public static int sum(int a, int b) {
 		return a+b;
 	}
-	
-	
-	
 	
 }//class

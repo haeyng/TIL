@@ -17,8 +17,7 @@ public class Ex09 {
 		//   ->복잡한 처리를 간단한 코딩으로 처리할 수 있다.
 		//예) 국어점수 -> 수,우,미,양,가 출력
 		//					if, switch문 사용 처리..
-		//					ChoiceFormat 클래스 사용처리.
-		
+		//					ChoiceFormat 클래스 사용처리.		
 		
 		//limit#value 
 		String newPattern = "0#가|60#양|70#미|80#우|90#수";
@@ -37,10 +36,7 @@ public class Ex09 {
 		} // for
 		*/
 		
-		
-		
-		
-		
+
 		
 	}//main
 

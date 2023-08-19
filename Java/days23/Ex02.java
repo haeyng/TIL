@@ -31,7 +31,7 @@ public class Ex02 {
 		
 		char con = 'y';
 		
-		//학생수는 .size()로 가져올수있음 
+		//학생수는 .size()로 가져올 수 있음 
 		
 		String name;
 		int kor,eng,mat,tot,rank,wrank;
@@ -41,11 +41,11 @@ public class Ex02 {
 		
 		int ban;
 		
+		//입력
 		do {
 			//1. 반 입력?
 			System.out.printf("> 반을 입력하세요. ");
-			ban = scanner.nextInt();
-			
+			ban = scanner.nextInt();		
 			
 			//2. 그 반의 학생 정보 입력
 			ArrayList<Student> classList = sistList.get(ban-1);
@@ -66,13 +66,12 @@ public class Ex02 {
 			Student s = new Student(no, name, kor, eng, mat, tot, avg, rank, wrank);
 			classList.add(s); // 학생정보 추가
 			
-			//입력 계속? 
+			//입력 계속
 			System.out.print(">입력을 계속 하겠습니까? ");
 			con = (char)System.in.read();
 			System.in.skip(System.in.available());
 			
-		} while (Character.toUpperCase(con)=='Y');
-		
+		} while (Character.toUpperCase(con)=='Y');		
 		
 		//출력
 		/*
@@ -84,28 +83,30 @@ public class Ex02 {
 	         } //while
 	       System.out.printf("\t\t학생 정보 출력( %d명 )\n", totalStudents);
 		*/
-		System.out.println("-".repeat(10));
+		
+		System.out.println("-".repeat(55));
+		
+		
 		//sistList.stream().mapToInt(classList->class1List.size()).forEach(학생수->System.out.println(학생수)); //각반의 학생수를 가지고 있는 int 형태의 stream 객체로 만듦
 		
 		//										메서드참조
 		//sistList.stream().mapToInt(ArrayList::size).forEach(System.out::println);
 		
 		//reduce()로 해보기
+		int totalStudents = sistList.stream().mapToInt(ArrayList::size).sum();
+		System.out.printf("\t\t학생 정보 출력( %d명 )\n", totalStudents);		
 		
-		System.out.println("-".repeat(10));
-		//						새로운 stream으로 변환
+		System.out.println("-".repeat(55));
 		
 		Iterator<ArrayList<Student>> ir = sistList.iterator();
 		ban = 1;
 		while (ir.hasNext()) {
 			//ArrayList<days23.Student> classList = (ArrayList<days23.Student>) ir.next();
-			//                 삭제										다운캐스팅
 			ArrayList<Student>classList = ir.next();
 			System.out.printf("[%d반  학생 : %d명]\n", ban++, classList.size());
+		
 			
-			
-			
-			/*
+			/* 출력 형식
 			[1반 학생 : 3명 ]
 			1   혞졲댥   11   79   20   110   36.67   3   6
 			2   끌꽕쳮   55   63   36   154   51.33   2   5
@@ -116,17 +117,15 @@ public class Ex02 {
 			[3반 학생 : 1명 ]
 			1   쫃쫾믬   90   40   90   220   73.33   1   2
 			*/
+			
 			Iterator<Student> ir2 = classList.iterator();
 			while (ir2.hasNext()) {
 				Student s = ir2.next();
 				System.out.println(s); //s.toString();
-			}
+			}//while		
 			
-		}//while
-		
-		
-		
+		}//while	
 		
 	}//main
-
+	
 }//class

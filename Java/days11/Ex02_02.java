@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class Ex02_02 {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		
 		//검색(Search)
 		//1.순차검색(sequential search)

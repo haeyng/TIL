@@ -5,7 +5,7 @@ public class Ex01 {
 	//필드
 	String message = null;
 	
-	//생성자 선언    /매개변수가 없는 default 생성자
+	//생성자 선언    //매개변수가 없는 default 생성자
 	public Ex01 () {
 		System.out.println(">Ex01 디폴트 생성자. ");
 		message = "안녕"; //생성자로 필드값 초기화 

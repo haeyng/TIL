@@ -1,7 +1,9 @@
 package days05;
 
 public class Ex05 {
+	
 	public static void main(String[] args) {
+		
 		// 조건문 : if
 		// 분기문 : switch
 		// 반복문 : for                  , foreach(확장for문)

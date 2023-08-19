@@ -5,6 +5,7 @@ public class Ex03_02 {
 	public static void main(String[] args) {
 
 		//배열 에러
+		
 		int [] m = new int [2];  //m[0] m[1]
 		//NullPointerException
 		//int [] m = null;

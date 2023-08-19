@@ -4,7 +4,8 @@ public class Ex07 {
 
 	public static void main(String[] args) {
 
-		// LG 공채:
+		// LG 공채 :
+		
 		//[이름 붙은 반복문]
 		//continue 이름;
 		//break 		이름;

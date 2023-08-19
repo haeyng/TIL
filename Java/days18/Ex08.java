@@ -9,7 +9,9 @@ package days18;
 public class Ex08 {
 
 	public static void main(String[] args) {
+		
 		//문자열 다루는 클래스
+		
 		//String : 변경 불가능한 클래스.***중요! // 객체가 없어지고 홍길동님 인스턴스가 heap영역에 새로 만들어짐
 		//StringBuffer
 		//StringBuilder

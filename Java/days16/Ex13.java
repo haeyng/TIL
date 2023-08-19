@@ -28,24 +28,9 @@ public class Ex13 {
 		 *    		int a = Integer.MAX_VALUE;
 					int b = a + 100;
 					System.out.println(b); //-2147483549
-		 * 
-		 * 
-		 * 
-		 * 
-		 * */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		  */
+
+	
 	}//main
 
 }//class

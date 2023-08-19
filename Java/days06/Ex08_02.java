@@ -3,6 +3,9 @@ package days06;
 public class Ex08_02 {
 
 	public static void main(String[] args) {
+		
+		//[for문으로 별찍기 연습]
+		
 		// *      i=1   j=1
 		// **     i=2   j=2
 		// ***    i=3   j=3

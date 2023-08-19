@@ -28,7 +28,7 @@ public class Ex04 {
 		b.add(7);
 		b.add(8);
 		
-		// 1) a U b 합집합 1,2,3,4,5,6,7,8
+		// 1) a U b 합집합 [1,2,3,4,5,6,7,8]
 		/*
 		ArrayList<Integer> hab = new ArrayList<Integer>();
 		hab.addAll(a);
@@ -49,8 +49,9 @@ public class Ex04 {
 		
 		
 		// 2) a - b 차집합 1,2,3
-		//cha
-		/*
+		//cha ------ ArrayList? HashSet?
+		
+		/*[차집합 2]
 		HashSet<Integer> cha = new HashSet<Integer>();
 		cha.addAll(a);
 		cha.removeAll(b);
@@ -58,7 +59,7 @@ public class Ex04 {
 		*/
 		
 		
-		/*
+		/*[차집합 1]
 		HashSet<Integer> cha = new HashSet<Integer>(a); //생성자에 a 집어넣음
 		//cha.addAll(a);
 		Iterator<Integer> ir = cha.iterator();//Iterator는 중간에 수정,제거,추가 작업 할 수 없음, 예외 발생함 //java.util.ConcurrentModificationException
@@ -79,26 +80,18 @@ public class Ex04 {
 			if (!b.contains(i)) cha.add(i);
 			else kyo.add(i);
 		}//while
+		
 		System.out.println(cha);
 		System.out.println(kyo);
+			
 		
-		
-		
-		
-		
-		// 3) a ㅁ b 교집합 4,5
-	
+		// 3) a ∩ b 교집합 4,5
+		//kyo
+		/*
 		kyo.addAll(a);
 		kyo.remove(cha);
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println( kyo );
+		*/
 		
 	}//main
 

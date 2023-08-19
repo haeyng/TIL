@@ -12,9 +12,7 @@ public class Ex10 {
 		
 		//0~3 임의의 수
 		int index = (int)Math.random()*4;
-		cardArr[index] = "****";
-		
-		
+		cardArr[index] = "****";	
 		
 		
 		//String printCard = String.format("%s-%s-%s-%s", cardArr[0],cardArr[1],cardArr[2],cardArr[3]);

@@ -77,7 +77,5 @@ class Person2{
 		return "[name=" + name + ", age=" + age + "]";
 	}
 	
-
-	
 	
 }//class

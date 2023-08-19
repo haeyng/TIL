@@ -3,6 +3,7 @@ package days07;
 public class Ex01 {
 
 	public static void main(String[] args) {
+		//[for문으로 구구단과 별찍기 연습]
 		
 		//1. 구구단 가로 출력
 		// for i= 2~9 단

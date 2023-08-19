@@ -12,16 +12,16 @@ public class Ex04_02 {
 		//예) 2,5
 		//2+3+4+5=14
 		// 5 2 = 0??
-		
+
 		int n, m, sum=0;
 		try (Scanner scanner = new Scanner(System.in)) {
-			
+
 			System.out.print("두 정수 n, m를 입력하라 >");
-			
+
 			n = scanner.nextInt();
 			m = scanner.nextInt();
-			
-				/*---------------------------------
+
+			/*---------------------------------
 				for (int i = n; i <= m; i++) {
 					System.out.printf("%d+",i);
 					sum+=i;
@@ -29,8 +29,8 @@ public class Ex04_02 {
 				System.out.printf("=%d\n",sum);
 				//2와 5 입려학면 2+3+4+5=14
 				//5와 2 입력하면 5 2 = 0
-				-----------------------------------결과값이 달라져서 코딩을 바꿔야함*/
-			
+			-----------------------------------결과값이 달라져서 코딩을 바꿔야함*/
+
 			/*[첫번째]------------------------------------
 			if (n > m) {
 				for (int i = m; i <= n; i++) {
@@ -45,7 +45,7 @@ public class Ex04_02 {
 			} // if
 				System.out.printf("=%d\n",sum);
 			--------------------------------------같은 작업을 두번 반복해서 좋은 코딩은 아님*/
-			
+
 			/* [두번째]
 			if( n > m ) {
 			  int temp = n;
@@ -58,7 +58,7 @@ public class Ex04_02 {
 				System.out.printf("%d+", i);
 			} // for
 			-------------------------------------위에 두번 반복하는것보다는 좋은 코딩*/
-			
+
 			/*[세번째]-----------------------------
 			int min = n>m ? m : n;
 			int max = n>m ? n : m;
@@ -68,7 +68,7 @@ public class Ex04_02 {
 			} // for
 			System.out.printf("=%d\n",sum);
 			--------------------------------------좋은 방법*/
-			
+
 			//[네번째] -----------------------------가장 좋은 방법 외우기!
 			//Math 클래스 - 수학과 관련된 매서드(기능)
 			//Math.random()
@@ -83,7 +83,7 @@ public class Ex04_02 {
 			System.out.printf("=%d\n",sum);
 
 		} catch (Exception e) {
-		e.printStackTrace();
+			e.printStackTrace();
 		}//catch
 	}//main
 }//class

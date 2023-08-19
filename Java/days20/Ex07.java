@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
  * @author 송해영
  * @date 2023. 8. 9. - 오후 2:09:07
  * @subject 형식화 클래스 (4가지)
- * @content SimpleDateFormat 제일 많이 사용됨*****
+ * @content SimpleDateFormat 제일 많이 사용됨 (중요)*****
  * 				   DecimalFormat
  * 				   ChoiceFormat
  * 				   MessageFormat
@@ -21,6 +21,7 @@ public class Ex07 {
 				double money = 3257600.8;
 		
 				//출력형식    \3,257,600
+				
 				//[1]
 				/*
 				String strMoney = String.format("\\%,d", money);
@@ -45,16 +46,7 @@ public class Ex07 {
 				DecimalFormat df = new DecimalFormat(pattern);
 				String strMoney = df.format(money);
 				System.out.println(strMoney);
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+					
 				
 	}//main
 

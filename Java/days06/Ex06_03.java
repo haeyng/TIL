@@ -24,12 +24,15 @@ public class Ex06_03 {
 		  3*1=3_2*2=4_2*3=6_ ... 3*9=27 개행
 		 */
 		
-//		for (int dan = 2; dan <= 9; dan++) {
-//			for (int i = 1; i <= 9; i++) {
-//				System.out.printf("%d*%d=%02d ", dan , i , dan*i);
-//			} // for
-//			System.out.println();
-//		} // for dan
+		
+		/*
+		for (int dan = 2; dan <= 9; dan++) {
+			for (int i = 1; i <= 9; i++) {
+				System.out.printf("%d*%d=%02d ", dan , i , dan*i);
+			} // for
+			System.out.println();
+		} // for dan
+		*/
 		
 		
 		//[2] 세로로 출력

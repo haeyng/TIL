@@ -28,9 +28,7 @@ public class Ex06 {
 			e.printStackTrace();
 		} //다운캐스팅 해야함
 		*/
-		
-		
-		
+
 		
 		/*
 		p1.notify(); 스레드 수업할 때 사용하는 메서드.. 

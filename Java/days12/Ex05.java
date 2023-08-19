@@ -94,9 +94,6 @@ public class Ex05 {
 		} // for i
 				
 
-		//printStudentInfo(names, infos, avgs, rank, wrank, counts);
-
-
 		//학생 정보 출력 (전교생이 7명)
 		//[1반 학생 : 4명]
 		//1 이름 국어 영어 수학 총점 평균 반등수 전교등수
@@ -139,12 +136,6 @@ public class Ex05 {
 
 
 	}//main
-	/*
-			private static void printStudentInfo(String[][] names, int[][][] infos, double[][] avgs, int rank, int wrank, int [] counts) {
-				for (int i = 0; i <=counts.length-1 ; i++) {
-				System.out.printf("(전교생 %d명)\n[%d반 학생 : %d명]\n%d %s %d %d %d %d %.2f %d 반%d등 전교%d등\n",counts[i+1], counts[ban-i], infos[i][0],infos[i][1],infos[i][2],infos[i][3],infos[i][4],infos[i][5], );
-				} // for
-			}
-			--- 내꺼 코딩*/ 
+
 
 }//class

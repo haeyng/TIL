@@ -31,8 +31,8 @@ public class Ex10 {
 	      
 	      Properties p = new Properties();
 	      //put(key,value)
-	      //p.put(Object key, Object value); //나중에 다운캐스팅해야되서 귀찮
-	      //p.setProperty(String key, String value); put말고 이거 사용
+	      //p.put(Object key, Object value); //나중에 다운캐스팅해야되서 번거롭다.
+	      //p.setProperty(String key, String value); put말고 setProperty메서드 사용
 	      p.setProperty("className", className);
 	      p.setProperty("url", url);
 	      p.setProperty("user", user);
@@ -52,11 +52,7 @@ public class Ex10 {
 			System.out.println(" Save End. ");
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-	      
-	      
-	      
-	      
+		}      
 	      
 	}//main
 

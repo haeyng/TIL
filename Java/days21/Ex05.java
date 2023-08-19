@@ -14,11 +14,12 @@ public class Ex05 {
 			//plusXXX(), plus(), minusXXX(), minus()
 			//날짜와 시간 비교 : isAfter(), isBefore(), isEqual()
 		
-			//오늘이 생일?
+			//오늘이 생일인지?
 			//1999.8.10
 			//2023.8.10
 			
 			LocalDate today = LocalDate.now();
+			
 			//LocalDate birth = LocalDate.of(1999,8,10);
 			LocalDate birth = LocalDate.of(1999,8,1);
 			birth = birth.withYear(today.getYear());//birth =  받는코딩 중요

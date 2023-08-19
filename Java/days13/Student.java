@@ -1,5 +1,16 @@
 package days13;
 
+/*
+lombok (롬복)
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+@AllArgsConstructor
+*/ 
+
 public class Student {
 
 	//멤버 = 멤버변수(필드) + 멤버함수(메서드)

@@ -17,36 +17,36 @@ public class Ex07 {
 
 		//LocalDate
 		//LocalTime
-		
-			//LocalDateTime 날짜 + 시간
-		
-			//LocalDateTime dt = LocalDateTime.now();
-			//System.out.println(dt);
-			
-			//truncate : 절삭(내림)
-			//dt =dt.truncatedTo(ChronoUnit.HOURS);//시간 밑에서부터 절삭
-			//dt =dt.truncatedTo(ChronoUnit.DAYS);
-			
-			//System.out.println(dt);
-			
-			/*
+
+		//LocalDateTime 날짜 + 시간
+
+		//LocalDateTime dt = LocalDateTime.now();
+		//System.out.println(dt);
+
+		//truncate : 절삭(내림)
+		//dt =dt.truncatedTo(ChronoUnit.HOURS);//시간 밑에서부터 절삭
+		//dt =dt.truncatedTo(ChronoUnit.DAYS);
+
+		//System.out.println(dt);
+
+		/*
 			LocalDate d = LocalDate.now();
 			LocalTime t = LocalTime.now();
-			
+
 			LocalDateTime dt = LocalDateTime.of(d, t);
-			
+
 			LocalDateTime dt2 =  d.atTime(t);
 			LocalDateTime dt3 =  t.atDate(d);
-			*/
-		
-			LocalDateTime dt = LocalDateTime.now();
-			//LocalDateTime -> LocalDate 변환
-			LocalDate d = dt.toLocalDate();
-			
-			//LocalDateTime -> LocalTime 변환
-			LocalTime t = dt.toLocalTime();
-			
-		
+		 */
+
+		LocalDateTime dt = LocalDateTime.now();
+		//LocalDateTime -> LocalDate 변환
+		LocalDate d = dt.toLocalDate();
+
+		//LocalDateTime -> LocalTime 변환
+		LocalTime t = dt.toLocalTime();
+
+
 	}//main
 
 }//class

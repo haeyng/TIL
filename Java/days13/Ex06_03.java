@@ -13,6 +13,7 @@ package days13;
 public class Ex06_03 {
 
 	public static void main(String[] args) {
+		
 			//클래스 배열
 			Point [] points = new Point[5];
 			for (int i = 0; i < points.length; i++) {

@@ -27,10 +27,6 @@ public class Ex05_02 {
 	      System.out.println(ts.subSet("c", "dzzz"));//[car, dance, disc]
 	      
 	      
-	      
-	      
-	      
-	      
 	}//main
 
 }//class

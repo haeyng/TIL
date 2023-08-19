@@ -1,6 +1,6 @@
 package days23;
 
-public class Student {
+public class Student implements Comparable<Integer>{
 
 	//멤버 = 멤버변수(필드) + 멤버함수(메서드)
 	//필드
@@ -14,6 +14,7 @@ public class Student {
 	private double avg;
 	private int rank;
 	private int wrank;
+	
 	public int getNo() {
 		return no;
 	}
@@ -68,6 +69,10 @@ public class Student {
 	public void setWrank(int wrank) {
 		this.wrank = wrank;
 	}
+	public Student() {
+		super();
+	}
+	
 	public Student(int no, String name, int kor, int eng, int mat, int tot, double avg, int rank, int wrank) {
 		super();
 		this.no = no;
@@ -81,9 +86,6 @@ public class Student {
 		this.wrank = wrank;
 	}
 	
-	public Student() {
-		super();
-	}
 	@Override
 	public String toString() {
 		return String.format("%d\t%s\t%d\t%d\t%d\t%d\t%.2f\t %d\t%d", 
@@ -97,6 +99,10 @@ public class Student {
 				rank,
 				wrank);
 	}
-
-
+	
+	@Override
+	public int compareTo(Integer o) {
+		return this.tot - o.intValue() ;
+	}
+	
 }//class

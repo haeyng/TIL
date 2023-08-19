@@ -65,11 +65,6 @@ public class Ex09 {
 		System.out.println(d);
 		
 		
-		
-		
-		
-		
-		
 	}//main
 
 }//class
@@ -83,10 +78,3 @@ class DayAfter3일 implements TemporalAdjuster{
 	}
 	
 }
-
-
-
-
-
-
-

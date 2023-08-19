@@ -8,6 +8,7 @@ package days18;
 public class Ex09_04 {
 
 	public static void main(String[] args) {
+		
 		/*
 	      문제 설명
 	      길이가 n이고, "수박수박수박수...."와 같은 패턴을 유지하는 문자열을 리턴하는 함수, 
@@ -26,6 +27,10 @@ public class Ex09_04 {
 
 	}//main
 	
+	//	StringBuffer sb = new StringBuffer();
+	//  sb.append( "수박".repeat(n/2) );
+	//  sb.append( "수".repeat(n%2) );   
+	
 	public static String solution(int n) {
 		// String answer = "";
 		// answer += "수"; // "박"
@@ -43,7 +48,6 @@ public class Ex09_04 {
 	}
 	/*
 	
-
 	
 	/*
 	private static String solution(int n) {

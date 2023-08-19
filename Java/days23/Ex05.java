@@ -50,17 +50,12 @@ public class Ex05 {
 		 System.out.println(ts.lower(4)); //1
 		 
 		 //지정된 값(3)과 같은 객체를 반환한다.
-		 // 트리 구조에 3값이 없으면 작은 값을 가진 객체 중에 가장 가까운 값을 반환한다.
-		 //  없으면 null 반환
-		 System.out.println(ts.floor(3));//1
+		 //트리 구조에 3값이 없으면 작은 값을 가진 객체 중에 가장 가까운 값을 반환한다.
+		 //없으면 null 반환
+		 System.out.println(ts.floor(3));  //1
 
-		 System.out.println(ts.ceiling(3));//4
+		 System.out.println(ts.ceiling(3));  //4
 		 
-		
-		
-		
-		
-		
 		
 	}//main
 

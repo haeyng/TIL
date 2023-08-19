@@ -8,6 +8,7 @@ package days13;
 public class Ex05_02 {
 
 	public static void main(String[] args) {
+		
 		   /*
 	       * [배열 초기화]
 	       * int [] m = new int[3];

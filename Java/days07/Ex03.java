@@ -37,5 +37,6 @@ public class Ex03 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}//catch	 //scanner.close()자동 : try리소스문
+		
 	}//main
 }//class

@@ -14,17 +14,17 @@ public class Temp extends Employee{
 	//생성자
 	public Temp() {
 		super();
-		System.out.println("디폴트 생성자 호출");
+		System.out.println("디폴트 생성자 호출됨");
 	}
 
 	public Temp(String name, String addr, String tel, String hiredate, int days, int payOfDay) {
 		super(name, addr, tel, hiredate);
 		this.days = days;
 		this.payOfDay = payOfDay;
-		System.out.println("temp6 생성자 호출");
+		System.out.println("temp6 생성자 호출됨");
 
 	}
-	//@Override 안붙여도 오버라이딩됨 붙이면 컴파일러가 됐는지 체크해줌
+	//@Override 안붙여도 오버라이딩되지만 붙이면 컴파일러가 됐는지 체크해줌
 	public int getPay() {
 		return this.days*this.payOfDay; //임시직 급여계산
 	}

@@ -58,11 +58,6 @@ public class Ex08 {
 		node5.next = null;
 		
 		
-		
-		
-		
-		
-		
 	}//main
 
 }//class
@@ -72,16 +67,6 @@ class Node{
 	Node next = null;//다음 노드의 주소를 참조하는 필드
 	//Node prev = null;//이전 노드의 주소를 참조하는 필드
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -37,8 +37,8 @@ class Member {
 	int age =  20; //명시적 초기화
 	int count;       // 명시적 초기화X
 	int serialNo;   // 명시적 초기화X
-	//2. 클래스 변수
 	
+	//2. 클래스 변수	
 	static double rate = 0.05;    //명시적 초기화
 	
 	//[클래스 초기화 블럭]
@@ -46,9 +46,7 @@ class Member {
 	static {
 		//일괄적으로 static 변수가 있다면 초기화하는데 사용.
 		rate = 0.08;
-		System.out.println(">static 초기화 블럭 호출됨..");
-
-	
+		System.out.println(">static 초기화 블럭 호출됨..");	
 	}
 
 	//인스턴스 초기화 블럭  - 오버로딩된 생성자에서 똑같은 코딩이 반복되면 인스턴스 초기화 블럭으로 빼줌

@@ -3,6 +3,7 @@ package days14;
 public class Ex04 {
 
 	public static void main(String[] args) {
+		
 			//[private 필드 선언] ------------------------[시험2]
 			// 1. 왜 private 접근지정자를 사용해서 필드 선언했는지?
 			// 2. 이유 
@@ -11,8 +12,7 @@ public class Ex04 {
 			//Person p1 = new Person(); //생성자 오류 나지 않는 이유는 컴파일러가 디폴트 생성자 추가되서.
 			Person p1 = new Person(true);
 			System.out.println(p1.isGender()); // gender에 값을 할당할수없음 - 생성자를 통해서 값을 할당 Person p1 = new Person(true);
-			//The constructor Person(boolean) is undefined 생성자 오버로딩 안되어있음 생성자 생성하면됨
-			
+			//The constructor Person(boolean) is undefined 생성자 오버로딩 안되어있음 생성자 생성하면됨			
 			
 			//p1.age = -20; //잘못된 값 필드에 할당 하는 작업을 막으려고 접근 지정자를 private로 막아둠
 			// 3. 방법 getter, setter 겟셋(게터, 세터) 추가해서 private 멤버에 접근할수있음

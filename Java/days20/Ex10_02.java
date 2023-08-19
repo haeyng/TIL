@@ -28,10 +28,6 @@ public class Ex10_02 {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-
-		
-		
-		
 		
 		
 	}//main

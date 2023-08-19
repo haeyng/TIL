@@ -3,6 +3,8 @@ package days05;
 public class Ex04 {
 
 	public static void main(String[] args) {
+		
+		
 		/* [1] 1+2+3+4+5+6+7+8+9+10=55
 				int sum = 0;
 				for (int i = 1; i <=10 ; i++) {
@@ -11,7 +13,7 @@ public class Ex04 {
 				} //for
 				System.out.printf("=%d",sum);*/
 
-		
+	
 		
 		/*[2] 1+3+5+7+9=25 
 		//1~10까지 홀수의 합
@@ -47,6 +49,7 @@ public class Ex04 {
 				sum +=i;
 		} //for
 		System.out.printf("=%d",sum);
+		
 		
 		
 		/*[5] 1~n까지의 합 출력

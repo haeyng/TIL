@@ -22,7 +22,7 @@ public class Ex07 {
 		//						'b'			15
 		//'a' 10 ##########
 		
-		//'0'~'9'   'A'~'Z'   'a'~'z' 가~힣  오름차순 정렬 key.... 어떻게..??
+		//'0'~'9'   'A'~'Z'   'a'~'z' 가~힣  오름차순 정렬 key.... 어떻게?
 		
 		String fileName = ".\\src\\days20\\Ex01.java";
 		int code = -1;
@@ -38,15 +38,17 @@ public class Ex07 {
 				//System.out.println(one);
 				//읽어온 문자 key가 hmap에 존재한다면 value 값을 1 증가시키고 
 				//존재하지 않으면 새로 엔트리를 추가
-				/*
+				
+				/*--강사님코드
 				if (hmap.containsKey(one)) {
 					int value = hmap.get(one);
 					hmap.put(one, value+1);
 				} else {
-					//hmap.put(one, 1); --강사님코드
+					//hmap.put(one, 1); 
 				}//if
 				*/
-				hmap.put(one, hmap.getOrDefault(one, 0)+1); //이거 한줄이 if문이랑 같은 코드
+				
+				hmap.put(one, hmap.getOrDefault(one, 0)+1); //이거 한줄이 if문이랑 같은 코드 
 				
 			}//while
 			
@@ -61,14 +63,10 @@ public class Ex07 {
 				int value = entry.getValue(); //Integer -> 언박싱 int
 				System.out.printf("'%c' (%d) %s\n",key,value,"#".repeat(value));
 			}//while
-			
-			
-			
-			
+		
 		} catch (Exception e) {
 			e.printStackTrace();
-		}//catch
-		
+		}//catch	
 		
 	}//main
 

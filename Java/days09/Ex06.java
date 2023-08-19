@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex06 {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		int [] m = new int [3];
 		
@@ -33,7 +34,7 @@ public class Ex06 {
 		case 6:
 			exit();
 			break;
-		}
+		}//switch
 		
 		
 	}

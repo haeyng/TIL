@@ -5,9 +5,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Ex11 {
+	
 	//[한 학생의 성적 관리 Student 클래스 선언]
 	//days10.Ex06_04.java
 	//[한 반에 30명 학생의 성적 처리] -> 클래스를 사용해서 수정
+	
 	public static void main(String[] args) throws IOException {
 
 		String name;

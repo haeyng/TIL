@@ -8,6 +8,7 @@ package days12;
 public class Ex05_02 {
 
 	public static void main(String[] args) {
+		
 		String [][] names = new String [3][];
 		names[0] = new String[25];
 		names[1] = new String[20];

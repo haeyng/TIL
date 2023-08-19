@@ -5,7 +5,7 @@ public class Ex09 {
 	public static void main(String[] args) {
 
 		//                StringBuffer,        StringBuilder 클래스
-		// 차이점? 멀티스레드에 안전하고     안전하지 못함
+		// 차이점?      멀티스레드에 안전하고     안전하지 못함
 		// 동기화 처리        O						 X
 		
 		//위의 두 클래스는 언제 사용하는지? String 변경 불가능한 클래스. 변경 가능한 클래스(삽입,수정,삭제,추가)

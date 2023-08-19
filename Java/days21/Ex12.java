@@ -37,11 +37,6 @@ public class Ex12 {
 		 * */
 		
 		
-		
-		
-		
-		
-		
 	}//main
 
 }//class

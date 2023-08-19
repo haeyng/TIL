@@ -9,7 +9,9 @@ import days10.Ex06_04;
 public class Ex11_02 {
 
 	public static void main(String[] args) throws IOException {
+		
 		//3반 30명 학생의 성적처리 -> Student 클래스 사용해서 수정
+		
 		final int STUDENT_COUNT = 30;
 		final int CLASS_COUNT = 3; 
 
@@ -60,10 +62,10 @@ public class Ex11_02 {
 			s.rank=rank;
 			s.name=name;
 			s.avg=avg;
-			
 
 
 			counts[ban-1]++;
+			
 			//입력 계속? 
 			System.out.print(">입력을 계속 하겠습니까? ");
 			con = (char)System.in.read();

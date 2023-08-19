@@ -31,13 +31,5 @@ public class Ex06 {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}//main
 }//class

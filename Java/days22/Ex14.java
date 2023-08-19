@@ -26,11 +26,6 @@ public class Ex14 {
 		System.out.println(hs.size());
 		
 		
-		
-		
-		
-		
-		
 	}//main
 
 }//clas

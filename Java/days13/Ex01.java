@@ -4,7 +4,6 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		
-		
 //				[01][02][03][04][10]
 //				[05][06][07][08][26]
 //				[09][10][11][12][42]

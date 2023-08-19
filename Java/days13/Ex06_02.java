@@ -18,16 +18,16 @@ public class Ex06_02 {
 			p1.x = 10; p1.y = 20;
 			
 			Point p2 = new Point();
-			p2.x = 10; p2.y = 21;
+			p2.x = 11; p2.y = 21;
 			
 			Point p3 = new Point();
-			p3.x = 10; p3.y = 22;
+			p3.x = 12; p3.y = 22;
 			
 			Point p4 = new Point();
-			p4.x = 10; p4.y = 23;
+			p4.x = 13; p4.y = 23;
 			
 			Point p5 = new Point();
-			p5.x = 10; p5.y = 23;
+			p5.x = 14; p5.y = 24;
 			
 			p1.dispXY();
 			p2.dispXY();

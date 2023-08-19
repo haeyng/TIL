@@ -18,27 +18,19 @@ public class Ex11 {
 		//         <-포맷<-
 		//		     DataTimeFormatter형식화 클래스
 		
+		// LocalDateTime implements Temporal extends TemporalAccessor
 		LocalDateTime dt = LocalDateTime.now();
 		//2023-08-10T14:05:00.525340
 		System.out.println(dt);
 		
 		//2023/08/10 요일 시간:분:초.밀리세컨드
+		// DateTimeFormatter dtf = new DateTimeFormatter() X
 		String pattern ="yyyy/MM/dd E요일 hh:mm:ss.SSS";	
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern(pattern);
+		
 		String output = dtf.format(dt);
 		System.out.println(output);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	}//main
 

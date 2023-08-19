@@ -42,15 +42,16 @@ public class Ex04 {
 			MessageFormat mf = new MessageFormat(pattern);
 			Object [] objArr = mf.parse(source);
 			
+			// Type mismatch: cannot convert from Object to int
 			//java.lang.ClassCastException 클래스 형변환 예외 발생
-			//() cast 강제형변환
-			//no = (int) objArr[0];
+			//() cast 강제형변환 ( 상속 관계 ) ...  days15일차 E, R, S, T를 떠올리며 복습
+			//no = (int) objArr[0];//1
 			
 			//"1"->1
 			no = Integer.parseInt(objArr[0].toString());
 			
-			name = (String) objArr[1];
-			addr = (String) objArr[2];
+			name = (String) objArr[1]; // 홍길동
+			addr = (String) objArr[2];  // 주소 
 			
 			System.out.println(no);
 			System.out.println(name);

@@ -9,10 +9,10 @@ package days07;
 public class Ex10 {
 
 	public static void main(String[] args) {
+		
 		int a = 10;
 		int b = 20;
 		int c = 30;
-		
 		
 		//두 정수의 합을 구해서 반환하는 
 		// 1. sum() 함수 선언

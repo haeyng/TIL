@@ -8,6 +8,7 @@ package days12;
 public class Ex01_02 {
 
 	public static void main(String[] args) {
+		
 		//3행 4열 2차원 배열 m 선언 1~12 배열 초기화
 		// int [][] m = new int[][]{};
 		

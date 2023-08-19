@@ -17,7 +17,6 @@ public class Ex06 {
 
 	public static void main(String[] args) {
 
-
 		/*
 		 * [Map 인터페이스를 구현한 컬렉션 클래스]
 		 * 1. key + value 한 쌍으로 관리
@@ -33,11 +32,15 @@ public class Ex06 {
 		 * 		데이터를 빠르게 찾을 수 있다.
 		 * 		-데이터를 저장(key+value)할 키값을 해시함수에 넣으면
 		 * 		 배열의 한 요소를 얻어오고 다시 그 배열에 연결된 링크드리스트에 데이터를 저장하는 방식이다.
-		 * 		예) 
-		 * 		
+		 * 		예) 1998.2.1 데이터 저장.
 		 * 
-		 * 
-		 * 
+		 * 		 [해시함수]
+		 *    
+		 *    
+		 *    [1990]   [][][][][][][][][]
+		 *        :    [][][][]
+		 *    [1998]   [][][][2.1삽입][][][][]
+		 *    [2000]   [][][][][]    
 		 * */
 		
 		//				id		 name
@@ -52,7 +55,7 @@ public class Ex06 {
 		System.out.println(hm);
 		
 		hm.put("hong", "홍중복");//key가 중복될때 에러는 발생하지 않고, 새로운 value로 저장됨. //key는 중복된 것은 허용하지 않음
-		System.out.println(hm);
+		//System.out.println(hm);
 		
 		hm.put("root", "관리자");
 		System.out.println(hm);
@@ -95,10 +98,7 @@ public class Ex06 {
 		System.out.println("-".repeat(40));
 		
 		dispHm(hm);
-		
-		
-		
-		
+	
 	}//main
 
 	/*[1]
@@ -138,5 +138,4 @@ public class Ex06 {
 	
 	}
 	
-
 }//class

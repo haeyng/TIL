@@ -6,6 +6,7 @@ import java.util.stream.IntStream;
 public class Ex08 {
 
 	public static void main(String[] args) {
+		
 		//max 최고값 얼마이고, 인덱스값이 몇번째인지 출력?
 		int [] score = new int [20];
 		//0~100 임의의 수로 채우고

@@ -11,7 +11,7 @@ public class Ex03 {
 		//Set 계열의 LinkedHashSet 컬렉션 클래스
 		//  ㄴ 중복 허용하지 않음, 순서(add했을때의 순서) 유지됨(가장 큰 특징)
 		
-		//사람은 주민등록번호가 같으면 같은 객체(사람) 중복이 안되야 됨
+		//사람은 주민등록번호가 같으면 같은 객체(사람)이므로 중복이 안되야 함.
 		Set<Person> s = new LinkedHashSet<Person>();
 		//부모 인터페이스에 업캐스팅
 		
@@ -28,10 +28,7 @@ public class Ex03 {
 			Person p = (Person) ir.next();//(Person) 생략가능
 			System.out.println(p);
 		}//while
-		
-		
-		
-		
+			
 	}//main
 
 }//class
@@ -58,16 +55,12 @@ class Person{
 		return "Person [rrn=" + rrn + ", name=" + name + ", age=" + age + "]";
 	}
 
-	
-	
-	
-	
+
 	//hashcode() 같으면 같은 객체
 	//같은지 물어볼때 equals() 오버라이딩해서 처리했었음
 	
 	//hashcode() rrn 오버라이딩
-	//equals() rrn 오버라이딩
-	
+	//equals() rrn 오버라이딩	
 	
 	@Override
 	public int hashCode() {
@@ -82,10 +75,5 @@ class Person{
 		} // if
 		return false;
 	}
-	
-	
-	
-	
-	
 	
 }

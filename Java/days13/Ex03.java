@@ -3,6 +3,7 @@ package days13;
 public class Ex03 {
 
 	public static void main(String[] args) {
+		
 		//1) Tv 클래스 선언 = Tv.java
 		//2) Tv 객체 생성
 		Tv tv1 = null;

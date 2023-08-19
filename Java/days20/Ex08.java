@@ -23,7 +23,7 @@ public class Ex08 {
 
 	public static void main(String[] args) {
 
-		// 23년 8월 9일 "수요일"  문자열을 날짜로 변환?
+		// 23년 8월 9일 "수요일"  문자열을 날짜(Date, Calendar)로 변환?
 		
 		String strDate = "23년 8월 9일 (수요일)";
 		
@@ -39,7 +39,9 @@ public class Ex08 {
 			//Date -> Calendar 형변환			
 			Calendar c = Calendar.getInstance();
 			c.setTime(d);
+			 // S 밀리세컨드
 			System.out.println(Ex05.getPatternDate(c, pattern));
+			
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}

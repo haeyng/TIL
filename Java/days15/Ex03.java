@@ -34,5 +34,4 @@ class CaptionTv extends Tv{
 			System.out.println(text);
 		} // if
 	}
-
 }

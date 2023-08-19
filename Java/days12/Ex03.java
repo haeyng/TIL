@@ -12,6 +12,7 @@ import java.util.Arrays;
 public class Ex03 {
 
 	public static void main(String[] args) {
+		
 		//순차검색
 		//이진검색 : (필수조건 - 정렬이 되어져 있어야함 )
 		int [] m = { 0, 4, 5, 15, 20, 21, 22, 24, 25, 28, 29, 30, 32, 33, 40, 43, 46, 47, 48, 58, 62, 63, 71, 76, 

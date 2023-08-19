@@ -17,15 +17,17 @@ public class Ex09 {
 		//LinkedList
 		//스택(Stack)과 큐(Queue)
 		//		스택 요소가 1부터 시작
+		//    	     ──────┐
+		// →    C  B  A  ㅣ
+		//       	 ──────┘
 		//LIFO(Last In First Out)구조
 		// ->push()
-		// <-pop()값을읽어가면서제거			peek()값을읽기만
+		// <-pop() 값을 읽어가면서 제거			peek() 값을 읽기만
 		//	   empty()
-		//index	   search() 
-		//-1			찾는게없으면
+		//index	    search() 
+		//-1			찾는게 없으면
 		
 		//스택 활용 : 웹브라우저 뒤로/앞으로
-		
 		
 		
 		//Stack의 부모클래스는 Vector   , 동기화처리가 되어있는것 Vector
@@ -63,13 +65,7 @@ public class Ex09 {
 		
 		//pop() pop() pop() 
 		System.out.println(s.search("임경재")); //최신부터 1~ //3
-		
-		
-		
-		
-		
-		
-		
+	
 		
 	}//main
 

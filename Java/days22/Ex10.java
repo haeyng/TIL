@@ -16,13 +16,18 @@ public class Ex10 {
 
 		//큐(Queue)
 		//디큐[Deque] 더블 큐 : 큐의 반대쪽으로 들어가서 나오기도 가능
-		
+		//    	────────────── 
+		// →       C  B  A        →
+		//    	────────────── 
 		//offer()				poll(),peek()
 		//push				pop(스택)
 		//FIFO 구조
+		//		────────────── 
+		// ←                    	 ←
+		//		────────────── 
 		
 		//Queue 는 Collection 인터페이스를 상속받은 인터페이스.
-		//Queue q = new LinkedList();//LinkedList더블큐를 구현한 클래스
+		//Queue q = new LinkedList();//LinkedList 더블큐를 구현한 클래스
 		Deque q = new LinkedList();
 		
 		q.offer("유희진");

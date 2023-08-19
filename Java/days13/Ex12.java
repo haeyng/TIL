@@ -3,6 +3,7 @@ package days13;
 public class Ex12 {
 
 	public static void main(String[] args) {
+		
 		//Ex12 클래스, Time 클래스 같은 패키지 내부
 		Time t = new Time();
 		t.hour=2; 			//public

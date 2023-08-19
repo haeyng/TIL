@@ -53,16 +53,6 @@ public class Ex08 {
 		LocalDate lastDay =  today.with(TemporalAdjusters.lastDayOfMonth());
 		System.out.println(lastDay);
 		
-		
-		//TemporalAdjuster ?
-		
-		
-		
-		
-		
-		
-		
-		
 	}//main
 
 }//class

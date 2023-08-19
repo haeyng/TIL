@@ -11,10 +11,12 @@ import java.util.Scanner;
 public class Ex05_02 {
 
 	public static void main(String[] args) {
+		
 		//정규표현식 사용해서
 		//국어점수(kor)을 입력받아서 
 		//0<= <=100
 		//올바른 국어점수, 잘못된 국어점수 출력
+		
 		//int [] kors = {90,1,100,101,-90,0};
 		String kor = "00";
 		//String regex = "\\d{3}"; //\\d{3} 는 100~999

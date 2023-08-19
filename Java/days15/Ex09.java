@@ -13,7 +13,7 @@ public class Ex09 {
 		//    E e1 =new R();
 		//    E e1 =new T();
 		//    E e1 =new S();
-		//      e1.getPay();호출 못함 Employee에 함수가 없음
+		//      e1.getPay();호출 못함 Employee에 메서드 선언 X .. 함수가 없음 
 		//    왜? Employee 클래스 안에 getPay(); 함수 선언을 안했을까
 		//    =>Employee에 getPay()함수 만들어보기
 		
@@ -21,6 +21,7 @@ public class Ex09 {
 		// 학생 관리 : 초등, 중, 고, 대학생..
 		//				추상 클래스로 학생클래스 : 공통적으로 가지고 있을 멤버 선언
 		//공통적으로 가지고 있을 멤버를 만들때 추상클래스를 만든다.
+		
 		
 		//[다형성] - "여러 가지 형태를 가질 수 있는 능력"
 		/*
@@ -93,7 +94,3 @@ public class Ex09 {
 	
 	
 }//class
-
-
-
-

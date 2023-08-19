@@ -85,9 +85,6 @@ public class Ex07 {
 		System.out.println(subList);
 		
 		
-		
-		
-		
 	}//main
 
 }//class

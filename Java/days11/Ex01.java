@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Ex01 {
 
 	public static void main(String[] args) {
+		
 		int [] m = { 3, 92, 3, 40, 71, 91, 61, 92, 76, 71, 59, 54, 64, 48, 66, 92, 25, 20, 73, 37 };
 //		   1)  m 배열의 max 값과  
 //		   2)  max의 모든 index를 찾아서 배열에 저장 후 출력하는 코딩을 하세요. 

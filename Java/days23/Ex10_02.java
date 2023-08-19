@@ -15,8 +15,7 @@ public class Ex10_02 {
 	public static void main(String[] args) {
 		
 		  String fileName = ".\\src\\com\\util\\jdbc.properties";	      
-	      Properties p = new Properties();	    
-	     
+	      Properties p = new Properties();	    	     
 	      
 	      try (FileReader reader = new FileReader(fileName)) {
 	    	  
@@ -30,8 +29,7 @@ public class Ex10_02 {
 		      System.out.println(className);
 		      System.out.println(url);
 		      System.out.println(user);
-		      System.out.println(password);
-			
+		      System.out.println(password);			
 			
 			System.out.println(" Load End. ");
 		} catch (Exception e) {

@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * @author 송해영
  * @date 2023. 8. 11. - 오후 4:30:48
- * @subject 로또 게임
+ * @subject 컬렉션 클래스를 사용해 로또 게임 1회 출력
  * @content days08.Ex09_03.java
  */
 public class Ex15 {

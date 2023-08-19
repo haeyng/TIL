@@ -3,6 +3,7 @@ package days08;
 public class Ex11_02 {
 
 	public static void main(String[] args) {
+		
 		// [ 정보처리 기사 실기 ]
 		int money = 125760;
 		int count = 0; // 화폐수량

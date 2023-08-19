@@ -3,6 +3,7 @@ package days13;
 public class Ex06 {
 
 	public static void main(String[] args) {
+		
 		//좌표점 20개 쓰기 + 읽기
 		//main.x, y 지역변수
 		int x = 10, y =20;

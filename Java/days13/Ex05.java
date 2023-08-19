@@ -8,6 +8,7 @@ package days13;
 public class Ex05 {
 
 	public static void main(String[] args) {
+		
 		// [클래스 배열]로 선언
 		/*
 		Tv tv1 = new Tv();

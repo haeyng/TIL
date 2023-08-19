@@ -87,11 +87,6 @@ public class Ex14_02 {
 		
 		
 		
-		
-		
-		
-		
-		
 	}//main
 
 }//class
