@@ -11,7 +11,7 @@ import java.util.Map.Entry;
 
 import days24.MemberVO;
 
-public class Ex01 {
+public class Ex01_Copy {
 
 	public static void main(String[] args) {
 //		1.  "1. Java 팀 구성.txt" 파일을 읽어와서
