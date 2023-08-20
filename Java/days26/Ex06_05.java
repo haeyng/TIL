@@ -22,10 +22,10 @@ public class Ex06_05 {
 		//	File		2. createTempFile("파일명","확장자명") : 임시 파일 생성
 		//					c:\\windows\\TEMP 파일 생성한다
 		
-		//	boolean 3.delete() : 파일 삭ㅈ[
-		// 3-1			deleteOnExit() : 응용 프로그래밍 종료할 때 파일을 삭제.(임시파일 삭제할때 주로 사용함...)
+		//	boolean 3.delete() : 파일 삭제
+		// 3-1			deleteOnExit() : 응용 프로그래밍이 종료할 때 파일을 삭제.(임시파일 삭제할때 주로 사용함...)
 		
-		//boolean 4. renameTo(File) : 매개변수인 파일객체의 파일명을 변경ㅎㅏ는 ㄴ메서드
+		//boolean 4. renameTo(File) : 매개변수인 파일객체의 파일명을 변경하는 메서드
 		//boolean 5. mkdir() : make directory 폴더 생성
 		//boolean		midirs() : 						 폴더들 생성
 		

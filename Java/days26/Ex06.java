@@ -48,7 +48,7 @@ public class Ex06 {
 		
 		
 		System.out.println("-".repeat(50));
-		// 파일의 경로를 반환하는 메서드. 리턴타입 String
+		// 파일의 경로를 반환하는 메서드. 리턴타입 String      //위에 적어놓은 세가지 메서드 ↓
 		System.out.println(file.getPath()); // 경로   //.\src\days26\Ex01.java
 		System.out.println(file.getAbsolutePath()); //절대경로    //E:\Class\workspace\JavaClass\javaPro\.\src\days26\Ex01.java
 		System.out.println(file.getCanonicalPath());//표준경로   //E:\Class\workspace\JavaClass\javaPro\src\days26\Ex01.java

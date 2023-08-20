@@ -29,7 +29,6 @@ public class Ex06_06 {
 
 
 
-
 	}//main
 	
 	//1번이 더 좋음
