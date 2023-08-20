@@ -13,7 +13,7 @@ public class Ex05 {
 
 	public static void main(String[] args) {
 
-		//Set : HashSey, LinkedHashSet, 
+		//Set : HashSet, LinkedHashSet, 
 		//			[TreeSet]
 		//1. 중복을 허용하지 않음, 순서유지 안됨
 		//2. 이진 검색 트리라는 자료 구조로 데이터를 저장하는 컬렉션 클래스.
