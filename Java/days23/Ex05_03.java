@@ -36,6 +36,9 @@ public class Ex05_03 {
 		
 		//IntStream -> int X Integer Stream 변환
 		//Arrays.stream(score).boxed()       //Stream<Integer> 객체가 만들어짐
+		
+		//ArrayList<Integer> list =Arrays.stream(score).boxed().collect(Collectors.toList());
+		//                                                              ↓ 형변환
 		ArrayList<Integer> list =(ArrayList<Integer>) Arrays.stream(score).boxed().collect(Collectors.toList());
 		
 		//TreeSet<Integer> ts = new TreeSet<Integer>(ArrayList);
