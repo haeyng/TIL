@@ -78,12 +78,12 @@
 - 절차적인 언어 문법
 
 ### 13.SQL 종류 ---- 정보처리기사 출제, 반복해서 복습하기
-- DQL (Data Query Language) : 데이터 조회할때 사용되는 언어          SELECT<br>
-- DDL (Data Definition Language) : 정의                            CREATE, DROP, ALTER<br>
-- DML (Data Manupulation Language) : 조작                          INSERT, UPDATE, DELETE, RENAME, TRUNCATE<br>
-									INSERT, UPDATE.. 후에 반드시 COMMIT완료, ROLLBACK취소 작업을 해야 한다.<br>
-- DCL (Data Control Language) : 권한                               GRANT, REVOKE<br>
-- TCL (Transcation Control Language) : 트랜잭션 조작과 관련된 언어 	 COMMIT, ROLLBACK, SAVEPOINT     <br>   
+- DQL (Data Query Language) : 데이터 조회할때 사용되는 언어    SELECT<br>
+- DDL (Data Definition Language) : 정의              CREATE, DROP, ALTER<br>
+- DML (Data Manupulation Language) : 조작            INSERT, UPDATE, DELETE, RENAME, TRUNCATE<br>
+                               INSERT, UPDATE.. 후에 반드시 COMMIT완료, ROLLBACK취소 작업을 해야 한다.<br>
+- DCL (Data Control Language) : 권한               GRANT, REVOKE<br>
+- TCL (Transcation Control Language) : 트랜잭션 조작과 관련된 언어  COMMIT, ROLLBACK, SAVEPOINT     <br>   
 
 ### 14.  SQL 문장 작성법
     1) SQL 문장은 대소문자를 구별하지 않는다.
