@@ -5,7 +5,7 @@
 - ora_help.exe는 관리자 권한으로 실행한다.
 - 관리자 권한으로 실행하지 않으면 실행되지 않을 때도 있다.
 ### 2. C:\Class\WorkSpace 경로에 OracleClass 폴더 생성한다.
-C:\Class\WorkSpace<br>
+- C:\Class\WorkSpace<br>
   └ OracleClass <br>
     └ days01 <br>
 
