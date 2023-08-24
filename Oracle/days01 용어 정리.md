@@ -69,17 +69,18 @@
 
 ### 11. SQL이란?
 - 오라클DB서버 <------- 요청 ------- 클라이언트 도구(sqlplus, sql developer,toad 등) <br>
-- 		도구를 가지고 서버에 요청할 때 사용되는 구조화된 질의 언어가 SQL이다.<br>
+   클라이언트가 서버에 요청하는 것을 request라고 한다. <br>
+- 도구를 가지고 서버에 요청할 때 사용되는 구조화된 질의 언어가 SQL이다.<br>
 - 서버 : 서비스를 제공하는 쪽
 - 클라이언트 : 서비스를 제공받는 쪽
-- 클라이언트가 서버에 요청하는 것을 request라고 한다. <br>
-<br>
-- 클라이언트 도구 -------응답--------> DB[서버]<br>
-- 서버가 요청에 대한 답변을 클라이언트에게 보내는 것을 응답(reponse)이라고 한다.<br>
-		    질의,응답  테이블(table)==릴레이션<br>
-	Structured 구조화된<br>
-	Query 질의<br>
-	Language 언어<br>
+
+
+- 클라이언트 도구 -------응답--------> DB[서버]
+     서버가 요청에 대한 답변을 클라이언트에게 보내는 것을 응답(reponse)이라고 한다.<br>
+          질의,응답  테이블(table)==릴레이션<br>
+	[S]tructured 구조화된<br>
+	[Q]uery 질의<br>
+	[L]anguage 언어<br>
 
 ### 12. PL / SQL = PL(Procedural Language) + SQL
 - 절차적인 언어 문법이 포함되어 확장된 SQL을 말한다.
@@ -89,7 +90,7 @@
 - DDL (Data Definition Language) : 정의              CREATE, DROP, ALTER<br>
 - DML (Data Manupulation Language) : 조작            INSERT, UPDATE, DELETE, RENAME, TRUNCATE<br>
                                INSERT, UPDATE.. 후에 반드시 COMMIT완료, ROLLBACK취소 작업을 해야 한다.<br>
-- DCL (Data Control Language) : 권한               GRANT, REVOKE<br>
+- DCL (Data Control Language) : 권한                GRANT, REVOKE<br>
 - TCL (Transcation Control Language) : 트랜잭션 조작과 관련된 언어  COMMIT, ROLLBACK, SAVEPOINT     <br>   
 
 ### 14.  SQL 문장 작성법
