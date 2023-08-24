@@ -28,13 +28,24 @@ Schema 란 사용자가 만든 그 사용자의 모든 객체들
 - "데이터베이스명.도메인명"
 - 오라클 데이터베이스를 식별하기 위한 유일한 이름(값)이다.
 
+### 5. tnsname.ora 파일의 용도
+- 클라이언트와 오라클 DB 서버와 연결할 때 설정 정보를 가지고 있는 파일.
+C:\oraclexe\app\oracle\product\11.2.0\server\network\ADMIN
 
+### 6. 오라클 설치 후 주요 오라클 서비스 2가지 - 암기
+1. Oracle[SID]Service
+2. Oracle[SID]Listener
 
-instance에 대한 정보 조회
+### 7. SQL은 기본 [Schema.테이블명], [Schema.뷰]를 대상으로 수행된다.
+- 간단하게 설명하면 FROM절 뒤에 오는 것을 의미 (테이블과 뷰)
+
+### 8. instance에 대한 정보 조회
 v$instance 현재 운용중인 데이터베이스에 설정된 인스턴스에 대한 정보 
 v$sga 현재 운용중인 데이터베이스에 설정된 SGA에 대한 정보 
 v$parameter SGA에 대한 정보를 추가적으로 제공 
 v$option SGA에 대한 정보를 추가적으로 제공 
 v$process SGA에 대한 정보를 추가적으로 제공 
 v$version SGA에 대한 정보를 추가적으로 제공 
+
+
 
