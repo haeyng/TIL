@@ -68,6 +68,15 @@
 - OracleXETNSListener - 네트워크를 통해서 오라클을 사용하는 클라이언트가 오라클 서버와 연결을 담당하는 관리 프로그램이다.
 
 ### 11. SQL이란?
+- 서버 : 서비스를 제공하는 쪽
+- 클라이언트 : 서비스를 제공받는 쪽
+- 클라이언트가 서버에 요청 : request<br>
+- 응답(reponse)<br>
+<br>
+- 오라클DB서버 <---- 요청 ----> 클라이언트 도구(sqlplus, sql developer,toad 등) <br>
+- 		도구를 가지고 서버에 요청할 때 사용되는 구조화된 질의 언어가 SQL이다.<br>
+<br>
+
 - 클라이언트 도구 -------------------> DB[서버]<br>
 		    질의,응답  테이블(table)==릴레이션<br>
 	Structured 구조화된<br>
@@ -75,7 +84,7 @@
 	Language 언어<br>
 
 ### 12. PL / SQL = PL(Procedural Language) + SQL
-- 절차적인 언어 문법
+- 절차적인 언어 문법이 포함되어 확장된 SQL을 말한다.
 
 ### 13.SQL 종류 ---- 정보처리기사 출제, 반복해서 복습하기
 - DQL (Data Query Language) : 데이터 조회할때 사용되는 언어    SELECT<br>
