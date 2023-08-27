@@ -6,7 +6,7 @@
 
 - 오라클 인스턴스 : 메모리에 올라가 실행되고 있는 오라클을 뜻한다.
 - SGA (오라클 서버가 실행중에만 메모리가 할당. 메모리영역)
-- SGA 에는 메모리 영역이 잡히는데 3가지 영역으로 나뉜다.
+- SGA 에는 메모리 영역이 잡히는데 Shared Pool, DataBase, Redo Log 3가지로 되어 있다.
 
 Instance 란 데이터베이스 startup에서 ==> shutdown까지 
 Session 란 사용자가 login에서 ==> logout까지 
@@ -19,9 +19,9 @@ Schema 란 사용자가 만든 그 사용자의 모든 객체들
 - 오라클 인스턴스 = SGA 메모리 영역 + 백그라운드 프로세스 영역
 
 ### 3. SGA의 3가지
-1.
-2.
-3.
+1.Shared Pool
+2.DataBase
+3.Redo Log
 
 ### 4. 전역 데이터베이스 이름이란?
 - Global Database Name : 전 세계에서 유일한 데이터베이스 이름.
