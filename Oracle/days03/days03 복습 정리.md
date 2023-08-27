@@ -12,11 +12,12 @@ order by절 7<br>
 ### 2. HR 소유의 employees 테이블의 구조를 확인 후 이름과 성을 합쳐서 full_name 으로 출력하는 SQL을 작성하세요.
 
 [실행결과]<br>
-FIRST_NAME   LAST_NAME   FULL_NAME   FULL_NAME                                
--------------------------------------------------------------------------<br>
-Ellen    Abel    Ellen Abel     Ellen Abel                                    
-Sundar   Ande   Sundar Ande   Sundar Ande 
-
+```oracle
+FIRST_NAME     LAST_NAME     FULL_NAME     FULL_NAME                                
+--------------------------------------------------
+Ellen          Abel          Ellen Abel    Ellen Abel                                    
+Sundar         Ande          Sundar Ande   Sundar Ande 
+```
 SELECT *
 FROM employees;
 
