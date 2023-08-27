@@ -194,6 +194,29 @@ ORDER BY BUSEO, NAME ASC, PAY DESC; <br>
       7900 JAMES      81/12/03
 
 10개 행이 선택되었습니다. 
+```oracle
+[첫번째 풀이]
+SELECT empno, ename, hiredate
+FROM emp
+WHERE hiredate BETWEEN '81/1/1' AND '81/12/31';
+--WHERE hiredate >= '81/1/1' AND hiredate <= '81/12/31';
+
+[두번째 풀이]
+SELECT empno, ename, hiredate
+,EXTRACT(year FROM hiredate) h_year
+FROM emp
+--WHERE TO_CHAR(hiredate, 'YYYY') = 1981 -- 오류나지 않지만 좋은 코딩 아님
+--WHERE TO_CHAR(hiredate, 'YYYY') = '1981'
+--WHERE EXTRACT (TEAR FROM hiredate) = 1981
+ORDER BY hiredate ASC;
+
+[세번째 풀이]
+SELECT empno, ename, hiredate
+,EXTRACT(year FROM hiredate) h_year
+FROM emp
+WHERE SUBSTR(hiredate, 1, 2) = '81'
+ORDER BY hiredate ASC;
+```
 
 
 
@@ -205,13 +228,25 @@ ORDER BY BUSEO, NAME ASC, PAY DESC; <br>
     FROM emp;<br>
 
 ### 14. emp 테이블에서 직속상사(mgr)가 없는  사원의 정보를 조회하는 쿼리 작성.
-SELECT *<br>
-FROM emp<br>
-WHERE mgr is NOT NULL;<br>
-14-2. emp 테이블에서 직속상사(mgr)가 있는  사원의 정보를 조회하는 쿼리 작성.<br>
-14-3. emp 테이블에서 직속상사(mgr)가 없는  사원의 mgr을 'CEO'로 출력하는 쿼리 작성.<br>
-
-
+```oracle
+SELECT *
+FROM emp
+WHERE mgr is NOT NULL;
+```
+### 14-2) emp 테이블에서 직속상사(mgr)가 있는  사원의 정보를 조회하는 쿼리 작성.<br>
+```oracle
+SELECT *
+FROM emp
+WHERE mgr IS NOT NULL;
+```
+### 14-3) emp 테이블에서 직속상사(mgr)가 없는  사원의 mgr을 'CEO'로 출력하는 쿼리 작성.<br>
+```oracle
+SELECT EMPNO, ENAME, JOB
+-- ,nvl(mgr,0) mgr --mgr의 0 처리가 가능함
+,NVL(TO_CHAR (mgr), 'CEO') mgr --mgr을 문자로 변환 후 NVL 함수를 이용해 'CEO'로 변환했다.
+,hiredate, sal, comm,deptno
+FROM emp;
+```
 
 
 
