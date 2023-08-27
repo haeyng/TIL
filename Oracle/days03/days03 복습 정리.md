@@ -9,8 +9,7 @@ group by절 4<br>
 having절 5<br>
 order by절 7<br>
 
-### 2. HR 소유의 employees 테이블의 구조를 확인 후 
-   이름과 성을 합쳐서 full_name 으로 출력하는 SQL을 작성하세요.<br> 
+### 2. HR 소유의 employees 테이블의 구조를 확인 후 이름과 성을 합쳐서 full_name 으로 출력하는 SQL을 작성하세요.
 
 [실행결과]<br>
 FIRST_NAME   LAST_NAME   FULL_NAME   FULL_NAME                                
@@ -92,17 +91,16 @@ ORDER BY DEPTNO ASC, PAY DESC;<br>
 
 
 ### 6. 오라클의 비교 연산자를 적으세요. 
-=
-!= ^=
-> <
-<= >=
-:= 대입연산자
+같다 = <br>
+다르다 != ^= <br>
+크다 작다 > < <br>
+크거나 같고 작거나 같다 <= >= <br>
+대입 연산자 := <br>
 
 ### 7. 오라클의 논리 연산자를 적으세요. 
 is not<br>
 AND<br>
 OR<br>
-
 
 ### 8. 오라클의 SQL 연산자를 적으세요.
 IS (NOT) NULL<br>
@@ -113,8 +111,8 @@ ANY, ALL, SOME<br>
 ### 9. insa 테이블에서 출신지역( city )가 수도권이 아닌 사원의 정보를 출력하는  SQL를 작성하세요.
    ( 1차 부서별 , 2차 지역별 오름차순 정렬 )
      
-[실행결과]
-BUSEO           NAME                 SSN            CITY      
+[실행결과]<br>
+BUSEO        NAME          SSN       CITY      
 --------------- -------------------- -------------- ----------
 자재부          심심해               810206-2222222 전북      
 자재부          김싱식               800715-1313131 전북      
@@ -135,7 +133,7 @@ ORDER BY BUSEO, CITY;<br>
 
 ### 10. emp 테이블에서 10번 또는 20번 부서원 정보를 출력하는  SQL를 작성하세요. 
 
-[실행결과]
+[실행결과]<br>
     DEPTNO ENAME      HIREDATE
 ---------- ---------- --------
         10 KING       81/11/17
@@ -158,9 +156,10 @@ ORDER BY DEPTNO;<br>
 
 ### 11.  insa 테이블에서 급여가   2,000,000 <=    급여 <= 2,500,000  인 사원의 부서명, 이름 , 급여(월급)를 부서별 오름차순, 급여별 내림차순으로 정렬해서 출력하는  SQL를 작성하세요.  
 
-[실행결과]
+[실행결과]<br>
+```oracle
 BUSEO           NAME                        PAY
---------------- -------------------- ----------
+-----------------------------------------------
 영업부          김정훈                  2124200
 인사부          박문수                  2465000
 인사부          박세열                  2230000
@@ -169,7 +168,7 @@ BUSEO           NAME                        PAY
 홍보부          이미인                  2053000
 
 17개 행이 선택되었습니다. 
-
+```
 SELECT BUSEO,NAME,BASICPAY + SUDANG PAY       <br> 
 FROM insa<br>
 WHERE BASICPAY + SUDANG BETWEEN 2000000 AND 2500000<br>
@@ -179,7 +178,7 @@ ORDER BY BUSEO, NAME ASC, PAY DESC; <br>
 
 ### 12. emp 테이블에서 입사일자(hiredate)가   81년도인 사원 정보를 입사순으로 정렬해서 출력하는  SQL를 작성하세요.  
 
-[실행결과]
+[실행결과]<br>
      EMPNO ENAME      HIREDATE
 ---------- ---------- --------
       7499 ALLEN      81/02/20
