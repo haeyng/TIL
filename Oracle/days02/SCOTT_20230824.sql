@@ -4,7 +4,7 @@ SELECT *
 FROM tabs;
 
 -- SQL 수행 과정 이해 --
---Optimizer 검색
+-- Optimizer 검색
 -- DQL 문 : SELECT
 
 -- 모든 사용자 계정 조회 SQL 작성.
@@ -48,7 +48,8 @@ FROM emp; --scott.sql 를 스크립트 파일이라고 함
 【subquery factoring_clause형식】
    WITH {query AS (subquery),...}
 
---SELECT문 앞에 있는 순서는 작성하는 순서. 뒤에 번호는 처리되는 순서. (시험)
+-- SELECT문 차례대로 작성하는 순서. 뒤에 번호는 처리되는 순서.
+-- 처리 순서 중요하니 암기하기!
 [WITH 절] --1번처리
 SELECT 절 --반드시 있어야함 --6번처리
 FROM 절 --반드시 있어야함 --2번처리
@@ -136,6 +137,7 @@ FROM emp;
 -- null 처리 : 커미션 미확인 된 값(null)은 0으로 처리하려고 함
 -- 오라클에는 null 처리를 해주는 함수가 4개 있다.
 -- NVL, VNL2, NULLIF, COALESCE
+
 SELECT deptno, ename,sal,comm
 --            , NVL(comm,0)
 --            , sal + comm AS "별칭(alias)"
@@ -480,7 +482,3 @@ INSERT INTO insa (num, name, ssn, ibsaDate, city, tel, buseo, jikwi, basicPay, s
 
 COMMIT;
 --------------------------------------------------------------------------------
-
-
-
-

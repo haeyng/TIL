@@ -22,7 +22,7 @@ from dba_extents;
 SELECT 8192 *8
 FROM dual;
 
--- dba_xxx     테이블, 뷰인지 모르지만 관리자만 사용할 수 있다.
+-- dba_xxx   테이블, 뷰인지 모르지만 관리자만 사용할 수 있다.
 SELECT *
 FROM dba_users;
 
@@ -47,7 +47,3 @@ ALTER USER hr IDENTIFIED BY lion;
 --위 두줄을 아래 한줄로 쓸 수 있음 ora_help에서 alter user 검색
 ALTER USER hr IDENTIFIED BY lion ACCOUNT UNLOCK;
 --User HR이(가) 변경되었습니다.
-
-
-
-

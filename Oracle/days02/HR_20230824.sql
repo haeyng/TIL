@@ -3,7 +3,7 @@
 --HR 계정이 소유하고 있는 샘플 테이블 조회
 SELECT *
 FROM user_tables;
-
+--[결과]
 --REGIONS
 --COUNTRIES
 --LOCATIONS
@@ -32,9 +32,9 @@ FROM EMPLOYEES;
 
 -- 사원 정보 firstname, lastname, name 별칭으로 테이블 조회(출력)
 --SELECT first_name + last_name -- 오류 ORA-01722: invalid number
--- 오라클에서 + 연산자는 문자연결연산자로 사용할 수 없다.
--- 오라클에서 문자연결연산자 || , concat() 
--- 오라클은 '문자열' '날짜'     오라클에서 문자열일때, 날짜일때 '' 사용 
+-- 오라클에서 + 연산자는 문자연결 연산자로 사용할 수 없다.
+-- 오라클에서 문자연결연산자 2가지 || , concat() 
+-- 오라클은 '문자열' '날짜'     오라클에서 문자열일 때와 날짜일 때 '' 사용한다.
 -- concat ('문자열', '문자열')
 SELECT first_name, last_name
       ,CONCAT(CONCAT(first_name, ' '), last_name) AS "NAME"
@@ -43,6 +43,3 @@ FROM EMPLOYEES;
 
 SELECT *
 FROM tabs;
--- 각 팀장 -- 테이블 파악 제출 
--- 테이블이 뭐하는 테이블이고 데이터 몇개 칼럼 몇개 저장하고 있는지..등등
-
