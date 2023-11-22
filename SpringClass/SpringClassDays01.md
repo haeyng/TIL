@@ -52,7 +52,9 @@ https://download.springsource.com/release/STS/3.9.18.RELEASE/dist/e4.21/spring-t
         - About Spring Tool Suite3 클릭 롬복 설치 확인  -> <br>
         - Lombok v1.18.28 "Envious Ferret" is installed. https:// projectlombok.org/)<br>
 <br>
+
 ![2023-11-22 21 07 38](https://github.com/haeyng/TIL/assets/141481323/337fb6fc-d657-439e-a919-40fb6b070184)
+
 <br>
 <br>
 <br>
@@ -149,6 +151,22 @@ web.xml
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern> ------> / 와 /* 차이점?
 	</servlet-mapping>
+
+/로 시작하고 /*로 끝나는 패턴은 path로 인식
+*.로 시작하는 경우 확장자 매칭
+/만 정의한 경우 디폴트 서블릿 의미
+그 외의 경우 동치 매칭
+
+/*는 요청 받는 모든 URL을 처리한다는 의미 - 모든 요청을 DispatcherServlet에서 처리하겠다고 지정하면 JSP에 대한 호출도 DispatcherServlet이 처리를 하려고 하기 때문에 JSP에 해당하는 mapping url을 찾을 수 없어 404 오류가 발생할 수 있다.
+
+해결방법? url-pattern을 / 로 지정한다. /로 정의한 경우를 디폴트 서블릿을 의미한다
+디폴트 서블릿이 서블릿 매핑 URL에 걸리지 않는 요청을 처리하게 한다.
+
+DefaultServlet은 png, jpg, js, html등 정적인 content를 처리한다
+
+~.jsp <- JspServlet 요청 처리
+~.jpg <- DefaultServlet 요청 처리
+~/list <- DispatcherServlet 요청 처리
 ```
 
 270 페이지<br>
