@@ -167,6 +167,7 @@ spring bean(핸들러매핑) : 객체가 요청url과 그에 맞는 핸들러를
 
 * 톰캣서버 시작했을때 로그 분석하기
 
+```
 11월 22, 2023 4:20:07 오후 org.apache.catalina.startup.VersionLoggerListener log
 INFO: 서버 버전 이름:    Apache Tomcat/8.5.93
 11월 22, 2023 4:20:07 오후 org.apache.catalina.startup.VersionLoggerListener log
@@ -249,7 +250,7 @@ INFO: Server startup in 5212 ms
 INFO : org.doit.ik.HomeController - Welcome home! The client locale is ko_KR.
 INFO : org.doit.ik.HomeController - Welcome home! The client locale is ko_KR.
 WARN : org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'appServlet'
-
+```
 
 
 스프링 컨테이너의 역할 : bean객체를 생성하고 조립<br>
