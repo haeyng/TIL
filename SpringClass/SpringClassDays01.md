@@ -143,6 +143,7 @@ JSP는 프로젝트명으로 떴었음
 jsp에서 contextPath 는 webapp까지이다.<br>
 톰캣 클릭 -> Modules클릭 -> Path를 /ik에서 / 로 고쳐둠 <br>
 --- 이렇게 하면 contextPath 붙이지 않아도 된다.<br>
+경로 안맞다고 404 오류 뜨면 확인해보기
 (자주 확인해서 Path가 /인지 확인하기)  ---> 저장해야된다.<br>
 
 ```
