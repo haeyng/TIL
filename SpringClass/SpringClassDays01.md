@@ -170,7 +170,7 @@ DefaultServlet은 png, jpg, js, html등 정적인 content를 처리한다
 ~/list <- DispatcherServlet 요청 처리
 ```
 
-270 페이지<br>
+p270<br>
 spring bean(핸들러매핑) : 객체가 요청url과 그에 맞는 핸들러를 dispatcherServlet에 알려준다.
 
 실질적으로 일처리하는 4번 컨트롤러가 서비스 호출, 
@@ -181,10 +181,7 @@ spring bean(핸들러매핑) : 객체가 요청url과 그에 맞는 핸들러를
 바로 view로 가는것이 아니라 뷰를 검색하는 작업을 함(viewResolver가 함) 응답형식이 jsp가 아닐수도 있다. (jsp 외 가능 하다는 의미)
 
 
-### 2. Spring MVC 패턴 구현 
-
-
-* 톰캣서버 시작했을때 로그 분석하기
+### 2. 톰캣서버 시작했을때 로그 분석하기
 
 ```
 11월 22, 2023 4:20:07 오후 org.apache.catalina.startup.VersionLoggerListener log
@@ -278,5 +275,6 @@ XmlWebApplicationContex : xml 파일을 설정 정보로 읽어서 bean객체를
 
 INFO : org.springframework.beans.factory.xml.<br>
 XmlBeanDefinitionReader - Loading XML bean definitions from <br>
-ServletContext resource [/WEB-INF/spring/root-context.xml]<br>
+ServletContext resource [/WEB-INF/spring/root-context.xml]
+<br>
 root-context.xml
